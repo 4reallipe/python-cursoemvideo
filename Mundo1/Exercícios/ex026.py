@@ -1,7 +1,8 @@
-frase = input('Digite uma frase: ')
+frase = str(input('Digite uma frase: ')).lower().strip()
 
 print(f"""
-    Quantas vezes aparece a letra A: {frase.lower().count('a').r}
-    Posição que aparece a primeira vez: {frase.lower().find('a')}
-    Posição que aparece a última vez: {frase.lower().rfind('a')}
+    Frase Usada: '{frase.title()}'
+    Quantas vezes aparece a letra A: {frase.count('a')}
+    Posição que aparece a primeira vez: {frase.find('a')+1}
+    Posição que aparece a última vez: {frase.rfind('a')+1}
 """)
