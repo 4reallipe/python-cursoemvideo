@@ -1,8 +1,10 @@
-print('Digite números diferentes.\n')
+print('='*28)
+print('Digite números diferentes.')
+print('='*28)
 x = int(input('Digite o primeiro número: '))
 y = int(input('Digite o segundo número: '))
 z = int(input('Digite o terceiro número: '))
-print('='*25)
+print('='*28)
 
 # maior
 if y < x and x > z:
@@ -18,3 +20,4 @@ if x > y and y < z:
     print('O menor é o segundo.')
 if x > z and z < y:
     print('O menor é o terceiro.')
+print('='*28)
