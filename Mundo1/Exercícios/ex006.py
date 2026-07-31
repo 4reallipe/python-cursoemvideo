@@ -1,3 +1,5 @@
+import gtts
+
 print('==== Sistema de cálculo de dobro, triplo e raíz quadrada ====')
 
 num = int(input('Digite seu número: '))

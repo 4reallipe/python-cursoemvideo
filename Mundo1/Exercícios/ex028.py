@@ -1,10 +1,21 @@
-import random
+from random import randint
+from time import sleep
 
-b = random.randrange(0, 6)
-a = int(input('Digite um número entre 0 e 5: '))
 
-print(f'\nMáquina escolhendo número...\n\nNúmero escolhido: {a}\nNúmero escolhido pela máquina: {b}')
-if a == b:
-    print('Acertou')
+computador = randint(0, 6)
+print('-=-'*20)
+print('Vou pensar em um número entre 0 e 5, tente acertar...')
+print('-=-'*20)
+usuario = int(input('Em que número eu pensei? '))
+
+print('Processando...')
+
+sleep(2)
+
+if usuario == computador:
+    print('PARABÉNS! Você ganhou...')
+    print(f'\nNúmero escolhido por você: {usuario}\nNúmero escolhido pela máquina: {computador}')
 else:
-    print('errou')
+    print('GANHEI! Você perdeu...')
+    print(f'Número escolhido por você: {usuario}')
+    print(f'Número escolhido pela máquina: {computador}')
