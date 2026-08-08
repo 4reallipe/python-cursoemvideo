@@ -1,21 +1,33 @@
-# python-cursoemvideo
+# 🐍 Curso de Python 3 — CursoemVídeo
 
-> Coloquei aqui os exercícios feitos por mim em python passados no curso de python do *cursoemvideo* ministrado por Gustavo Guanabara.
-> Comecei esse curso pois quero começar a aprender python, tanto para melhorar minha lógica, quanto para desenvolver minha capacidade de raciocínio.
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![CursoemVídeo](https://img.shields.io/badge/CursoemV%C3%ADdeo-Python%203-red?style=for-the-badge)](https://www.cursoemvideo.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-<table>
-  <tr>
-    <th width="40%">Nome</th>
-    <th width="60%">Explicação</th>
-  </tr>
-  <tr>
-    <td>Exercícios</td>
-    <td>Exercícios passados feitos</td>
-  </tr>
-  <tr>
-    <td>AulaTeste-Python</td>
-    <td>Testes realizados durante as aulas</td>
-  </tr>
-</table>
+Este repositório contém as soluções dos exercícios e os scripts de teste desenvolvidos durante o curso de **Python 3**, ministrado pelo professor **Gustavo Guanabara** na plataforma **CursoemVídeo**.
+
+O objetivo deste projeto é registrar meu aprendizado, fortalecer os fundamentos de lógica de programação e praticar a sintaxe da linguagem Python.
 
 ---
+
+## 📊 Progresso no Curso
+
+| Módulo | Tópicos Principais | Status |
+| :--- | :--- | :---: |
+| **Mundo 1** | Tipos Primitivos, Operadores Aritméticos, Módulos, Manipulação de Texto e Estruturas Condicionais (`if`/`else`) | ✅ Concluído |
+| **Mundo 2** | Condicionais Aninhadas (`elif`), Estruturas de Repetição (`for`, `while`) e Interrupção (`break`) | ⏳ Em andamento |
+| **Mundo 3** | Tuplas, Listas, Dicionários, Funções, Modularização, Tratamento de Erros e Exceções | ❌ Não iniciado |
+
+---
+
+## 📁 Estrutura do Repositório
+
+```text
+python-cursoemvideo/
+├── Mundo-1/
+│   ├── AulaTeste-Python/    # Práticas e testes realizados durante as aulas do Mundo 1
+│   └── Exercicios/          # Desafios do ex001 ao ex035
+├── Mundo-2/
+│   ├── AulaTeste-Python/    # Práticas e testes realizados durante as aulas do Mundo 2
+│   └── Exercicios/          # Desafios do ex036 ao ex071
+└── README.md
