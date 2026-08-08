@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$/Mundo1/Exercícios">
       <excludeFolder url="file://$MODULE_DIR$/Mundo1/Exercícios/.venv" />
     </content>
+    <orderEntry type="jdk" jdkName="G:\04_Estudos\Github\python-cursoemvideo\Mundo1\Exercícios\.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
